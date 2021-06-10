@@ -12,7 +12,8 @@ https://youtu.be/lK-V4-I21F0
 
 ## 프로젝트 소개
 최근 패션은 트렌드가 빠르게 변화하여,  일명 패스트 패션으로 불린다. 
-때문에 방치되는 옷이 증가하고, 무슨 옷이 있는지 기억도 못한채 다시 옷을 구입하게되어 불필요한 소비를 하게 되는 악순환이 반복되고 있다.  
+때문에 방치되는 옷이 증가하고, 
+무슨 옷이 있는지 기억도 못한채 다시 옷을 구입하게되어 불필요한 소비를 하게 되는 악순환이 반복되고 있다.  
 환경부의 통계에 따르면, 2014년 하루 약 214톤 이상의 의류 폐기물이 발생하였고, 
 현시점에는 더욱 증가하였을 것이라 예상되는 상황이다. 
 
@@ -29,9 +30,9 @@ https://youtu.be/lK-V4-I21F0
  
 
 2. 딥러닝 모델
-  <img width="500" alt="1" src="https://user-images.githubusercontent.com/55148494/121529279-38ce7a80-ca37-11eb-967f-a49f32be1f53.JPG">
-  <img width="500" alt="2" src="https://user-images.githubusercontent.com/55148494/121529283-39671100-ca37-11eb-98cf-2fb6e49947d9.png"> 
-  <img width="500" alt="3" src="https://user-images.githubusercontent.com/55148494/121529288-39ffa780-ca37-11eb-8982-a1eeb5edec3c.JPG"> 
+   <img width="500" alt="1" src="https://user-images.githubusercontent.com/55148494/121529279-38ce7a80-ca37-11eb-967f-a49f32be1f53.JPG">
+   <img width="500" alt="2" src="https://user-images.githubusercontent.com/55148494/121529283-39671100-ca37-11eb-98cf-2fb6e49947d9.png"> 
+   <img width="500" alt="3" src="https://user-images.githubusercontent.com/55148494/121529288-39ffa780-ca37-11eb-8982-a1eeb5edec3c.JPG"> 
 
 3. 선호도 기반 룩북 제작
 
