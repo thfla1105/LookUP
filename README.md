@@ -123,3 +123,7 @@ https://youtu.be/lK-V4-I21F0
 - 유사 RGB 값을 선택하여 자동 / 수동 배경 색상 제거
 
   https://github.com/GabrielBB/Android-CutOut
+  
+- CNN model
+
+  https://buomsoo-kim.github.io/keras/2018/05/05/Easy-deep-learning-with-Keras-11.md/
