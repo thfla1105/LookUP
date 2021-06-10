@@ -51,7 +51,7 @@ https://youtu.be/lK-V4-I21F0
 
    <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121529292-3a983e00-ca37-11eb-8b50-8e7eaaeab57d.png">    
    
-   <img width="600" alt="2" src="https://user-images.githubusercontent.com/55148494/121529295-3a983e00-ca37-11eb-8b4a-e676a7314d89.png">   
+   <img width="600" alt="2" src="https://user-images.githubusercontent.com/55148494/121529295-3a983e00-ca37-11eb-8b4a-e676a7314d89.png">      
 
 
 
