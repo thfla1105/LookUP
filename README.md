@@ -102,15 +102,15 @@ https://youtu.be/lK-V4-I21F0
 ## 기술 블로그
 - 김연재 https://yj-tech.tistory.com/
 
-   =>배경 제거 및 윤곽선 추출, KNN 알고리즘을 활용한 얼굴 인식과 판별, 개인화 추천 시스템
+   => CNN모델을 위한 데이터 전처리, 옷 분류 CNN모델, 유사 RGB값을 활용한 배경 제거
 
 - 신민정 https://mj-lab.tistory.com/
 
-   =>Keras를 활용한 옷 분류 CNN 모델과 서버에서 모델 예측 값 받아 오기
+   => Keras를 활용한 옷 분류 CNN 모델, 데이터셋 수집, 서버에서 모델 예측 값 받아 오기
 
 - 이소림 https://sr-algo.tistory.com/
 
-   =>얼굴인식 알고리즘 스터디 및 KNN 알고리즘을 활용한 얼굴 인식과 판별, Tensorflow lite를 활용한 face detection
+   => train&validation set 수집, CNN 모델 최적화, 텍스트 유사도를 활용한 옷 조합
 
 
 
