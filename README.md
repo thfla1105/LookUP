@@ -1,13 +1,17 @@
 # LookUP
+
  ### 딥러닝을 활용한 스마트 옷장 관리 어플리케이션
  
+
 
 ## CTRL_S 유튜브 채널
 https://www.youtube.com/channel/UCD8cOZayQ3FosrTvUVdCQqg
 
 
+
 ## 시연영상 링크
 https://youtu.be/lK-V4-I21F0
+
 
 
 ## 프로젝트 소개
@@ -22,9 +26,11 @@ https://youtu.be/lK-V4-I21F0
 맞춤형 코디 추천과 스마트 옷장 관리를 위한 어플리케이션 제작을 목표로 하였다.
 
 
+
 ## 시스템 흐름도 및 구조도
  
 <img width="700" alt="2" src="https://user-images.githubusercontent.com/55148494/121527289-34a15d80-ca35-11eb-9e24-cedcef0b54ab.JPG"> 
+
 
 
 ## 사용 기술 소개
@@ -47,6 +53,8 @@ https://youtu.be/lK-V4-I21F0
    <img width="600" alt="2" src="https://user-images.githubusercontent.com/55148494/121529295-3a983e00-ca37-11eb-8b4a-e676a7314d89.png">
 
 
+
+
 ## Look UP 대표 기능 3가지
 
 <img width="600" alt="2" src="https://user-images.githubusercontent.com/55148494/121531399-5270c180-ca39-11eb-9f5a-6a180ce5a759.JPG">
@@ -66,20 +74,28 @@ https://youtu.be/lK-V4-I21F0
   
     2-2. 옷장 관리
 	
-     <img width="600" alt="2" src="https://user-images.githubusercontent.com/55148494/121528039-0f611f00-ca36-11eb-913e-ec89e863f410.png">
+     <img width="600" alt="2" src="https://user-images.githubusercontent.com/55148494/121532179-138f3b80-ca3a-11eb-90d4-3648965564a1.png">
 	 
 
 3. 룩북
    
    <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121528654-a62ddb80-ca36-11eb-8249-523ef8bef437.png">
 
+
+
+
 ## 기대효과 및 향후 개발 계획
 
 <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121531771-b1363b00-ca39-11eb-9bcb-efbdf30df152.JPG">
 
+
+
+
 ## 개발 환경
 
 <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121531816-babfa300-ca39-11eb-9361-5862fa1dd67d.png">
+
+
 
 
 ## 기술 블로그
@@ -94,7 +110,9 @@ https://youtu.be/lK-V4-I21F0
 - 이소림 https://sr-algo.tistory.com/
 
    =>얼굴인식 알고리즘 스터디 및 KNN 알고리즘을 활용한 얼굴 인식과 판별, Tensorflow lite를 활용한 face detection
-   
+
+
+
 ## Reference
 
 - 실시간 얼굴인식(안드로이드 스튜디오)
