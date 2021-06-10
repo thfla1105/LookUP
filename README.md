@@ -116,18 +116,10 @@ https://youtu.be/lK-V4-I21F0
 
 ## Reference
 
-- 실시간 얼굴인식(안드로이드 스튜디오)
+- OpenCV grabcut을 이용한 이미지 윤곽선 추출 
 
-  https://medium.com/@estebanuri/real-time-face-recognition-with-android-tensorflow-lite-14e9c6cc53a5
+  https://deep-learning-study.tistory.com/240
 
-- Face Detection(안드로이드 스튜디오)
+- 유사 RGB 값을 선택하여 자동 / 수동 배경 색상 제거
 
-  https://www.youtube.com/watch?v=iSf1gD5LgjI
-
-- KNN 알고리즘을 활용한 face detection & recognition
-
-  https://thecodingnote.tistory.com/8
-
-- 배경제거 및 윤곽선 추출
-
-  http://blog.naver.com/PostView.nhn?blogId=samsjang&logNo=220606250662&categoryNo=66&parentCategoryNo=0&viewDate=&currentPage=3&postListTopCurrentPage=&from=postList&userTopListOpen=true&userTopListCount=10&userTopListManageOpen=false&userTopListCurrentPage=3
+  https://github.com/GabrielBB/Android-CutOut
