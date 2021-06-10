@@ -27,12 +27,22 @@ https://youtu.be/lK-V4-I21F0
 
 ## 사용 기술 소개
 1. 이미지 윤곽선 추출
+
    <img width="500" alt="1" src="https://user-images.githubusercontent.com/55148494/121529296-3b30d480-ca37-11eb-8bea-36b388d3aa30.png">
-3. 딥러닝 모델
+   
+2. 딥러닝 모델
+
    <img width="500" alt="1" src="https://user-images.githubusercontent.com/55148494/121529279-38ce7a80-ca37-11eb-967f-a49f32be1f53.JPG">
+   
    <img width="500" alt="2" src="https://user-images.githubusercontent.com/55148494/121529283-39671100-ca37-11eb-98cf-2fb6e49947d9.png"> 
+   
    <img width="500" alt="3" src="https://user-images.githubusercontent.com/55148494/121529288-39ffa780-ca37-11eb-8982-a1eeb5edec3c.JPG"> 
-4. 선호도 기반 룩북 제작
+   
+3. 선호도 기반 룩북 제작
+
+   <img width="500" alt="1" src="https://user-images.githubusercontent.com/55148494/121529292-3a983e00-ca37-11eb-8b50-8e7eaaeab57d.png"> 
+   
+   <img width="500" alt="2" src="https://user-images.githubusercontent.com/55148494/121529295-3a983e00-ca37-11eb-8b4a-e676a7314d89.png">
 
 ## Look UP 대표 기능 3가지
 1. 스타일 분석
