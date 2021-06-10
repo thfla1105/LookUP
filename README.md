@@ -19,9 +19,10 @@ https://youtu.be/lK-V4-I21F0
 이러한 문제점을 해결할 필요성을 느껴 LookUP 을 고안하게 되었으며 
 프로젝트는 사용자의 선호도, 외출목적, 날씨를 고려한 맞춤형 코디 추천과 스마트 옷장 관리를 위한 어플리케이션 제작을 목표로 하였다.
 
-##시스템 흐름도 및 구조도
+## 시스템 흐름도 및 구조도
  
 <img width="500" alt="2" src="https://user-images.githubusercontent.com/55148494/121527289-34a15d80-ca35-11eb-9e24-cedcef0b54ab.JPG"> 
+
 
 ## 사용 기술 소개
 1. 이미지 윤곽선 추출
@@ -37,11 +38,9 @@ https://youtu.be/lK-V4-I21F0
 
     1-1. 스타일별 선호도 조사
   	 
-     <img width="315" alt="1" src="https://user-images.githubusercontent.com/55148494/101899037-7d946880-3bf0-11eb-9a21-5bf62b4e8110.JPG">
+     <img width="315" alt="1" src="https://user-images.githubusercontent.com/55148494/121527794-c27d4880-ca35-11eb-947c-38a7674dc7ce.png">
   
     1-2. 외출목적 별 선호도 조사
-  
-     <img width="315" alt="2" src="https://user-images.githubusercontent.com/55148494/101899045-7ec59580-3bf0-11eb-97fc-50a3385700e4.JPG">
   
 
 2. 옷장 관리
@@ -49,6 +48,7 @@ https://youtu.be/lK-V4-I21F0
   2-1. 옷 추가 
   
   2-2. 옷장 관리
+  <img width="315" alt="2" src="https://user-images.githubusercontent.com/55148494/121528039-0f611f00-ca36-11eb-913e-ec89e863f410.png">
 	 
 
 3. 룩북
