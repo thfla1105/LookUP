@@ -87,7 +87,7 @@ https://youtu.be/lK-V4-I21F0
 
 ## 기대효과 및 향후 개발 계획   
 
-<img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121531771-b1363b00-ca39-11eb-9bcb-efbdf30df152.JPG">
+<img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121538383-b4342a00-ca3f-11eb-96fd-5419118fd53e.JPG">
 
 
 
