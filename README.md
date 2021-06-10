@@ -38,7 +38,7 @@ https://youtu.be/lK-V4-I21F0
 
     1-1. 스타일별 선호도 조사
   	 
-     <img width="315" alt="1" src="https://user-images.githubusercontent.com/55148494/121527794-c27d4880-ca35-11eb-947c-38a7674dc7ce.png">
+     <img width="500" alt="1" src="https://user-images.githubusercontent.com/55148494/121527794-c27d4880-ca35-11eb-947c-38a7674dc7ce.png">
   
     1-2. 외출목적 별 선호도 조사
   
@@ -49,11 +49,12 @@ https://youtu.be/lK-V4-I21F0
   
     2-2. 옷장 관리
 	
-     <img width="315" alt="2" src="https://user-images.githubusercontent.com/55148494/121528039-0f611f00-ca36-11eb-913e-ec89e863f410.png">
+     <img width="500" alt="2" src="https://user-images.githubusercontent.com/55148494/121528039-0f611f00-ca36-11eb-913e-ec89e863f410.png">
 	 
 
 3. 룩북
    
+   <img width="500" alt="1" src="https://user-images.githubusercontent.com/55148494/121528654-a62ddb80-ca36-11eb-8249-523ef8bef437.png">
 
 ## 기대효과 및 향후 개발 계획
 
