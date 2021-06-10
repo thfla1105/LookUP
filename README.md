@@ -6,12 +6,12 @@
 
 
 ## CTRL_S 유튜브 채널
-https://www.youtube.com/channel/UCD8cOZayQ3FosrTvUVdCQqg   
+https://www.youtube.com/channel/UCD8cOZayQ3FosrTvUVdCQqg      
 
 
 
 ## 시연영상 링크
-https://youtu.be/lK-V4-I21F0   
+https://youtu.be/lK-V4-I21F0      
 
 
 
@@ -24,41 +24,41 @@ https://youtu.be/lK-V4-I21F0
 
 이러한 문제점을 해결할 필요성을 느껴 LookUP 을 고안하게 되었으며    
 프로젝트는 사용자의 선호도, 외출목적, 날씨를 고려한     
-맞춤형 코디 추천과 스마트 옷장 관리를 위한 어플리케이션 제작을 목표로 하였다.    
+맞춤형 코디 추천과 스마트 옷장 관리를 위한 어플리케이션 제작을 목표로 하였다.       
 
 
 
 ## 시스템 흐름도 및 구조도
  
-<img width="700" alt="2" src="https://user-images.githubusercontent.com/55148494/121527289-34a15d80-ca35-11eb-9e24-cedcef0b54ab.JPG"> 
+<img width="700" alt="2" src="https://user-images.githubusercontent.com/55148494/121527289-34a15d80-ca35-11eb-9e24-cedcef0b54ab.JPG">    
 
 
 
 ## 사용 기술 소개   
 1. 이미지 윤곽선 추출
 
-   <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121529296-3b30d480-ca37-11eb-8bea-36b388d3aa30.png">
+   <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121529296-3b30d480-ca37-11eb-8bea-36b388d3aa30.png">   
    
 2. 딥러닝 모델
 
-   <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121529279-38ce7a80-ca37-11eb-967f-a49f32be1f53.JPG">
+   <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121529279-38ce7a80-ca37-11eb-967f-a49f32be1f53.JPG">   
    
-   <img width="600" alt="2" src="https://user-images.githubusercontent.com/55148494/121529283-39671100-ca37-11eb-98cf-2fb6e49947d9.png"> 
+   <img width="600" alt="2" src="https://user-images.githubusercontent.com/55148494/121529283-39671100-ca37-11eb-98cf-2fb6e49947d9.png">    
    
-   <img width="600" alt="3" src="https://user-images.githubusercontent.com/55148494/121529288-39ffa780-ca37-11eb-8982-a1eeb5edec3c.JPG"> 
+   <img width="600" alt="3" src="https://user-images.githubusercontent.com/55148494/121529288-39ffa780-ca37-11eb-8982-a1eeb5edec3c.JPG">    
    
 3. 선호도 기반 룩북 제작
 
-   <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121529292-3a983e00-ca37-11eb-8b50-8e7eaaeab57d.png"> 
+   <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121529292-3a983e00-ca37-11eb-8b50-8e7eaaeab57d.png">    
    
-   <img width="600" alt="2" src="https://user-images.githubusercontent.com/55148494/121529295-3a983e00-ca37-11eb-8b4a-e676a7314d89.png">
+   <img width="600" alt="2" src="https://user-images.githubusercontent.com/55148494/121529295-3a983e00-ca37-11eb-8b4a-e676a7314d89.png">   
 
 
 
 
-## Look UP 대표 기능 3가지   
+## Look UP 대표 기능 3가지      
 
-<img width="600" alt="2" src="https://user-images.githubusercontent.com/55148494/121531399-5270c180-ca39-11eb-9f5a-6a180ce5a759.JPG">
+<img width="600" alt="2" src="https://user-images.githubusercontent.com/55148494/121531399-5270c180-ca39-11eb-9f5a-6a180ce5a759.JPG">   
 
 1. 스타일 분석
 
