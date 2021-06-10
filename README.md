@@ -45,10 +45,11 @@ https://youtu.be/lK-V4-I21F0
 
 2. 옷장 관리
 
-	2-1. 옷 추가 
+    2-1. 옷 추가 
   
-  	2-2. 옷장 관리
-  	<img width="315" alt="2" src="https://user-images.githubusercontent.com/55148494/121528039-0f611f00-ca36-11eb-913e-ec89e863f410.png">
+    2-2. 옷장 관리
+	
+     <img width="315" alt="2" src="https://user-images.githubusercontent.com/55148494/121528039-0f611f00-ca36-11eb-913e-ec89e863f410.png">
 	 
 
 3. 룩북
