@@ -18,11 +18,13 @@ https://youtu.be/lK-V4-I21F0
 현시점에는 더욱 증가하였을 것이라 예상되는 상황이다. 
 
 이러한 문제점을 해결할 필요성을 느껴 LookUP 을 고안하게 되었으며 
-프로젝트는 사용자의 선호도, 외출목적, 날씨를 고려한 맞춤형 코디 추천과 스마트 옷장 관리를 위한 어플리케이션 제작을 목표로 하였다.
+프로젝트는 사용자의 선호도, 외출목적, 날씨를 고려한
+맞춤형 코디 추천과 스마트 옷장 관리를 위한 어플리케이션 제작을 목표로 하였다.
+
 
 ## 시스템 흐름도 및 구조도
  
-<img width="500" alt="2" src="https://user-images.githubusercontent.com/55148494/121527289-34a15d80-ca35-11eb-9e24-cedcef0b54ab.JPG"> 
+<img width="700" alt="2" src="https://user-images.githubusercontent.com/55148494/121527289-34a15d80-ca35-11eb-9e24-cedcef0b54ab.JPG"> 
 
 
 ## 사용 기술 소개
@@ -44,7 +46,11 @@ https://youtu.be/lK-V4-I21F0
    
    <img width="600" alt="2" src="https://user-images.githubusercontent.com/55148494/121529295-3a983e00-ca37-11eb-8b4a-e676a7314d89.png">
 
+
 ## Look UP 대표 기능 3가지
+
+<img width="600" alt="2" src="https://user-images.githubusercontent.com/55148494/121531399-5270c180-ca39-11eb-9f5a-6a180ce5a759.JPG">
+
 1. 스타일 분석
 
     1-1. 스타일별 선호도 조사
