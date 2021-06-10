@@ -2,7 +2,7 @@
 
  ### 딥러닝을 활용한 스마트 옷장 관리 어플리케이션   
  
- <img width="700" alt="2" src="https://user-images.githubusercontent.com/55148494/121532534-636e0280-ca3a-11eb-9326-a96613e89fe5.JPG">   
+ <img width="700" alt="2" src="https://user-images.githubusercontent.com/55148494/121532534-636e0280-ca3a-11eb-9326-a96613e89fe5.JPG">      
 
 
 ## CTRL_S 유튜브 채널
@@ -34,7 +34,7 @@ https://youtu.be/lK-V4-I21F0
 
 
 
-## 사용 기술 소개
+## 사용 기술 소개   
 1. 이미지 윤곽선 추출
 
    <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121529296-3b30d480-ca37-11eb-8bea-36b388d3aa30.png">
@@ -56,7 +56,7 @@ https://youtu.be/lK-V4-I21F0
 
 
 
-## Look UP 대표 기능 3가지
+## Look UP 대표 기능 3가지   
 
 <img width="600" alt="2" src="https://user-images.githubusercontent.com/55148494/121531399-5270c180-ca39-11eb-9f5a-6a180ce5a759.JPG">
 
@@ -85,14 +85,14 @@ https://youtu.be/lK-V4-I21F0
 
 
 
-## 기대효과 및 향후 개발 계획
+## 기대효과 및 향후 개발 계획   
 
 <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121531771-b1363b00-ca39-11eb-9bcb-efbdf30df152.JPG">
 
 
 
 
-## 개발 환경
+## 개발 환경   
 
 <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121531816-babfa300-ca39-11eb-9361-5862fa1dd67d.png">
 
