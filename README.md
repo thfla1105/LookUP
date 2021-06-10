@@ -64,9 +64,11 @@ https://www.youtube.com/watch?v=Nvn1ird-rgM
 
     1-1. 스타일별 선호도 조사
   	 
-     <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121527794-c27d4880-ca35-11eb-947c-38a7674dc7ce.png">
+     <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121546460-43dcd700-ca46-11eb-951e-0e8208e6ac43.png">
   
     1-2. 외출목적 별 선호도 조사
+    
+     <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121546467-463f3100-ca46-11eb-9145-186a4cdff885.JPG">
   
 
 2. 옷장 관리
