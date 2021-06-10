@@ -127,3 +127,7 @@ https://youtu.be/lK-V4-I21F0
 - CNN model
 
   https://buomsoo-kim.github.io/keras/2018/05/05/Easy-deep-learning-with-Keras-11.md/
+  
+- 컨텐츠 기반 추천: 텍스트 유사도
+
+  https://techblog-history-younghunjo1.tistory.com/115
