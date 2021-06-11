@@ -18,6 +18,7 @@ import androidx.recyclerview.selection.SelectionTracker
 import androidx.recyclerview.selection.StorageStrategy
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
+import kotlinx.android.synthetic.main.color_tone_select3.*
 import network.RetrofitClient
 import network.ServiceApi
 import retrofit2.Call
@@ -56,10 +57,12 @@ class SelectFragment() : Fragment(), ActionMode.Callback {
 
 
         itemSelection = context?.getSharedPreferences("Situation1", MODE_PRIVATE)
+        getItemData(userId!!,1)
         itemSelectionEditor = itemSelection?.edit()
 
 
         Log.e("itemSelection edit: ",itemSelectionEditor.toString())
+
 
 
 
@@ -116,9 +119,9 @@ class SelectFragment() : Fragment(), ActionMode.Callback {
                 tracker?.select(postItems[i.toInt() - 1])
                 var imagelist = mutableListOf<Int>()
                 imagelist.add(postItems[i.toInt() - 1].imageID)
-                var postitemdata = PostItemData(userId, imagelist, 1)
+                //var postitemdata = PostItemData(userId, imagelist, 1)
 
-                setItemUpdate(postitemdata)
+                //setItemUpdate(postitemdata)
             }
         }
 
@@ -165,10 +168,9 @@ class SelectFragment() : Fragment(), ActionMode.Callback {
                 ).show()*/
 
                 //데이터 전달하기
-                //getItemData(userId!!,1)
-                val intent = Intent(context?.applicationContext, MainActivity::class.java)
+                getItemData(userId!!,1)
+                val intent = Intent(context?.applicationContext, SelectActivity::class.java)
                 startActivity(intent)
-                //activity?.finish()
                 //getItemData(userId!!,1)
             }
         }
@@ -274,7 +276,6 @@ class SelectFragment() : Fragment(), ActionMode.Callback {
 
 
 }
-
 
 
 

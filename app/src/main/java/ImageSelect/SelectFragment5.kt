@@ -48,11 +48,12 @@ class SelectFragment5() : Fragment(), ActionMode.Callback {
         //setContentView(R.layout.itemselect_selectactivity1)
 
         val view = inflater.inflate(R.layout.itemselect_selectactivity1, container, false)
-        itemSelection = context?.getSharedPreferences("Situation5", MODE_PRIVATE)
-        itemSelectionEditor = itemSelection?.edit()
+
 
         userId = SaveSharedPreference.getString(this.context?.applicationContext, "ID")
-
+        itemSelection = context?.getSharedPreferences("Situation5", MODE_PRIVATE)
+        getItemData(userId!!,5)
+        itemSelectionEditor = itemSelection?.edit()
 
 
 
@@ -146,7 +147,7 @@ class SelectFragment5() : Fragment(), ActionMode.Callback {
 
 
     override fun onActionItemClicked(mode: ActionMode?, item: MenuItem?): Boolean {
-        getItemData(userId!!,4)
+        getItemData(userId!!,5)
         when (item?.itemId) {
             R.id.action_view_delete -> {
                 /*Toast.makeText(
@@ -156,7 +157,7 @@ class SelectFragment5() : Fragment(), ActionMode.Callback {
                 ).show()*/
 
                 //데이터 전달하기
-                //getItemData(userId!!,5)
+                getItemData(userId!!,5)
                 val intent = Intent(context?.applicationContext, SelectActivity::class.java)
                 startActivity(intent)
 

@@ -48,11 +48,12 @@ class SelectFragment4() : Fragment(), ActionMode.Callback {
         //setContentView(R.layout.itemselect_selectactivity1)
 
         val view = inflater.inflate(R.layout.itemselect_selectactivity1, container, false)
-        itemSelection = context?.getSharedPreferences("Situation4", MODE_PRIVATE)
-        itemSelectionEditor = itemSelection?.edit()
+
 
         userId = SaveSharedPreference.getString(this.context?.applicationContext, "ID")
-
+        itemSelection = context?.getSharedPreferences("Situation4", MODE_PRIVATE)
+        getItemData(userId!!,4)
+        itemSelectionEditor = itemSelection?.edit()
 
 
 
@@ -156,7 +157,7 @@ class SelectFragment4() : Fragment(), ActionMode.Callback {
                 ).show()*/
 
                 //데이터 전달하기
-                //getItemData(userId!!,4)
+                getItemData(userId!!,4)
                 val intent = Intent(context?.applicationContext, SelectActivity::class.java)
                 startActivity(intent)
 

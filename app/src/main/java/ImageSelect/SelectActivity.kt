@@ -1,10 +1,12 @@
 package ImageSelect
 
+import Cookie.SaveSharedPreference
 import Login_Main.activity.LoginActivity.popflag
 import Login_Main.activity.LoginActivity.popnum
 import Login_Main.activity.MainActivity
 import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
@@ -17,6 +19,11 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
+import network.RetrofitClient
+import network.ServiceApi
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 import java.R
 
 class SelectActivity :AppCompatActivity(){
@@ -157,6 +164,7 @@ class SelectActivity :AppCompatActivity(){
             when(position){
                 0 ->{//MainFragment.style="casual"
                     //return SelectFragment().newInstance(1)!!
+
                     return SelectFragment()
                     //return SelectFragment(1)
                 }
@@ -193,4 +201,7 @@ class SelectActivity :AppCompatActivity(){
 
         }
     }
+
+
+
 }

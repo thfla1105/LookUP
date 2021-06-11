@@ -8,7 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.moshi.MoshiConverterFactory;
 
 public class RetrofitWeather {
-    private final static String BASE_URL = "http://apis.data.go.kr/1360000/VilageFcstInfoService/"; //http://54.180.195.102/57931
+    private final static String BASE_URL = "http://apis.data.go.kr/1360000/VilageFcstInfoService/";
     private static Retrofit retrofit = null;
     private static OkHttpClient okHttpClient=new OkHttpClient.Builder()
             .connectTimeout(1, TimeUnit.MINUTES)
