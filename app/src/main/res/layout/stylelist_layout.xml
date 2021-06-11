@@ -1,0 +1,47 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="styleList.StyleActivity">
+
+    <fragment
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:navGraph="@navigation/nav_graph"
+        app:defaultNavHost="true"
+        android:id="@+id/nav_host"/>
+
+    <com.google.android.material.appbar.AppBarLayout
+    android:id="@+id/appbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingConstraints">
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/stylelist_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        app:tabSelectedTextColor="#000000"
+        app:tabTextColor="#bbbbbb"
+        app:tabIndicatorColor="#FF0000"
+        app:tabIndicatorHeight="2dp"
+        tools:ignore="MissingConstraints">
+    </com.google.android.material.tabs.TabLayout>
+</com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/stylelist_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f2f2f2"
+        >
+
+    </androidx.viewpager2.widget.ViewPager2>
+
+
+
+</FrameLayout>

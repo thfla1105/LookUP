@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">LookUP</string>
+    <string name="intro_magic_title">Automatic background clearing</string>
+    <string name="intro_manual_title">Manual background clearing</string>
+    <string name="intro_zoom_title">Zooming and Moving the picture</string>
+    <string name="intro_magic_description">Use the Magic Wand tool and touch parts of the background you want to erase</string>
+    <string name="intro_manual_description">Use the Pencil tool to erase the background dragging your finger around the screen</string>
+    <string name="intro_zoom_description">Use the Magnifier tool to Zoom in/out so you can make better cuts</string>
+    <string name="intro_label">Quick look</string>
+    <string name="image_chooser_message">Choose an image to cut</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="image_description">Image</string>
+    <string name="test_ad_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name = "navigation_drawer_open">Open navigation drawer</string>
+    <string name = "navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!---style-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="stylelist_rating">StyleList Rating</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="go_main">Go Main</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+    <string name="view_list">View list</string>
+</resources>

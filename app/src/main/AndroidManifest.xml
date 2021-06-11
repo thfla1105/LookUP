@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:usesCleartextTraffic="true"
+    android:requestLegacyExternalStorage="true"
+    package="java">
+
+    <!--
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        android:maxSdkVersion="22" />
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:maxSdkVersion="22" />-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_lookup"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_lookup_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true">
+
+        <!--
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>-->
+
+        <activity android:name="Color.activity.TopSelect123"/>
+        <activity android:name="Color.activity.ToneSelect1"/>
+        <activity android:name="Color.activity.ToneSelect2"/>
+        <activity android:name="Color.activity.ToneSelect3"/>
+
+
+        <activity
+            android:name="styleList.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="styleList.RatingActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="styleList.RatingActivity" />
+        </activity>
+
+        <activity android:name="styleList.RatingActivity"/>
+
+        <activity android:name="ImageSelect.ImageSelectActivity"/>
+
+        <activity android:name="ImageSelect.SelectActivity"
+            android:theme="@style/AppTheme.dark"/>
+
+
+        <activity
+            android:name="Login_Main.activity.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name="Login_Main.activity.JoinActivity" />
+        <activity android:name="Login_Main.activity.LoginActivity" />
+        <activity android:name="Login_Main.activity.TestActivity" />
+        <activity android:name="Category.activity.CategoryActivity" />
+
+        <activity android:name="ColorSpuit.ExampleColorMixing" />
+
+
+
+        <activity android:name="Cutout.CutOutActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat"/>
+        <activity android:name="Cutout.IntroActivity"
+            android:theme="@style/Base.Theme.AppCompat"
+            android:label="@string/intro_label"/>
+        <activity android:name="Cutout.CutOut_MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="Closet.activity.Closet_MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="Closet.activity.TopActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="Closet.activity.BottomActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="Closet.activity.OuterActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="Closet.activity.DressActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="Closet.activity.AccActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="Closet.activity.FullImageActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name="LookBook.activity.LookBookActivity"
+            android:theme="@style/AppTheme.dark"/>
+
+        <activity android:name="LookBook.activity.LookBookResultActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="LookBook.activity.MergeActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="LookBook.activity.MergeActivity2"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="LookBook.activity.MergeActivity3"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name="styleList.noticeActivity"
+            android:theme="@android:style/Theme.Dialog"/>
+
+
+        <activity android:name="styleList.noticeActivity2"
+            android:theme="@android:style/Theme.Dialog"/>
+
+        <activity android:name="styleList.routeActivity"/>
+        <activity android:name="styleList.StyleActivity"/>
+
+    </application>
+
+</manifest>
