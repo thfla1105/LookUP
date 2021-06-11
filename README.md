@@ -65,7 +65,7 @@ https://www.youtube.com/watch?v=xOWpKh46e6E
 
     1-1. 스타일별 선호도 조사
   	 
-     <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121546460-43dcd700-ca46-11eb-951e-0e8208e6ac43.png">
+     <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121662974-e5b10200-cae0-11eb-8079-c4fabe64bf56.png">
   
     1-2. 외출목적 별 선호도 조사
     
