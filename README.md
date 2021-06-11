@@ -30,7 +30,7 @@ https://www.youtube.com/watch?v=xOWpKh46e6E
 
 ## 시스템 흐름도 및 구조도
  
-<img width="700" alt="2" src="https://user-images.githubusercontent.com/55148494/121527289-34a15d80-ca35-11eb-9e24-cedcef0b54ab.JPG">    
+<img width="700" alt="1" src="https://user-images.githubusercontent.com/55148494/121527289-34a15d80-ca35-11eb-9e24-cedcef0b54ab.JPG">    
 
 
 
@@ -58,7 +58,7 @@ https://www.youtube.com/watch?v=xOWpKh46e6E
 
 ## Look UP 대표 기능 3가지      
 
-<img width="600" alt="2" src="https://user-images.githubusercontent.com/55148494/121531399-5270c180-ca39-11eb-9f5a-6a180ce5a759.JPG">   
+<img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121531399-5270c180-ca39-11eb-9f5a-6a180ce5a759.JPG">   
 
 1. 스타일 분석
 
@@ -74,10 +74,14 @@ https://www.youtube.com/watch?v=xOWpKh46e6E
 2. 옷장 관리
 
     2-1. 옷 추가 
+    
+     <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121662361-36742b00-cae0-11eb-950a-989b5d296692.png">
+     
+     <img width="600" alt="2" src="https://user-images.githubusercontent.com/55148494/121662367-37a55800-cae0-11eb-93ef-a6f514226904.png">
   
     2-2. 옷장 관리
 	
-     <img width="600" alt="2" src="https://user-images.githubusercontent.com/55148494/121532179-138f3b80-ca3a-11eb-90d4-3648965564a1.png">
+     <img width="600" alt="1" src="https://user-images.githubusercontent.com/55148494/121532179-138f3b80-ca3a-11eb-90d4-3648965564a1.png">
 	 
 
 3. 룩북
