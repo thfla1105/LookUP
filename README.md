@@ -11,7 +11,7 @@ https://www.youtube.com/channel/UCD8cOZayQ3FosrTvUVdCQqg
 
 
 ## 시연영상 링크
-https://www.youtube.com/watch?v=Nvn1ird-rgM
+https://www.youtube.com/watch?v=xOWpKh46e6E
 
 
 
