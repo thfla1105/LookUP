@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="LookBook.activity.LookBookActivity"
+    >
+<!--android:orientation="vertical"-->
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/linearView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/addressView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/currentStateView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="3dp"/>
+
+            <ImageView
+                android:id="@+id/currentStateImageView"
+                android:layout_height="450px"
+                android:layout_width="450px"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:id="@+id/currentTempView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="5dp"/>
+
+            <LinearLayout
+                android:id="@+id/linearView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/highTempView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:id="@+id/lowTempView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:padding="5dp"/>
+                </LinearLayout>
+
+
+
+          <!--  <TextView
+                android:id="@+id/tempView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />-->
+
+            <TextView
+                android:id="@+id/rainfallView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:padding="5dp"/>
+           <!-- <TextView
+                android:id="@+id/skyStateView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>-->
+
+
+
+
+            <TextView
+                android:id="@+id/split"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="-----------------------------------------------------------------------------"/>
+
+            <TextView
+                android:id="@+id/purpose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="외출목적"
+                android:textSize="20sp"
+                android:padding="10dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:overScrollMode="never"
+                android:scrollbars="none">
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/chipgroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    app:singleSelection="true"
+                    app:selectionRequired="true"
+                    app:singleLine="true">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/btn_daily"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:theme="@style/Theme.MaterialComponents.Light"
+                        android:text="일상"/>
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/btn_formal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:theme="@style/Theme.MaterialComponents.Light"
+                        android:text="직장/면접"/>
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/btn_parttime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:theme="@style/Theme.MaterialComponents.Light"
+                        android:text="아르바이트"/>
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/btn_hangout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:theme="@style/Theme.MaterialComponents.Light"
+                        android:text="친구 모임/데이트"/>
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/btn_workout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:theme="@style/Theme.MaterialComponents.Light"
+                        android:text="운동"/>
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/btn_etc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:theme="@style/Theme.MaterialComponents.Light"
+                        android:text="기타"/>
+
+                </com.google.android.material.chip.ChipGroup>
+            </HorizontalScrollView>
+
+            <!--<Button
+                android:id="@+id/purpose_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="외출목적"/>-->
+
+            <TextView
+                android:id="@+id/acc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="악세서리 추천 선택 여부"
+                android:textSize="20sp"
+                android:padding="10dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:overScrollMode="never"
+                android:scrollbars="none">
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/chipgroup2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    app:singleSelection="true"
+                    app:selectionRequired="true"
+                    app:singleLine="true">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/btn_acc_beanie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:theme="@style/Theme.MaterialComponents.Light"
+                        android:text="비니 포함"/>
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/btn_acc_scarf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:theme="@style/Theme.MaterialComponents.Light"
+                        android:text="목도리 포함"/>
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/btn_acc_cap"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:theme="@style/Theme.MaterialComponents.Light"
+                        android:text="캡모자 포함"/>
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/btn_acc_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:theme="@style/Theme.MaterialComponents.Light"
+                        android:text="선택 안함"
+                        android:padding="10dp"/>
+
+                </com.google.android.material.chip.ChipGroup>
+            </HorizontalScrollView>
+
+            <!--<HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:overScrollMode="never"
+                android:scrollbars="none">
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/chipgroup2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    app:singleSelection="true"
+                    app:selectionRequired="true"
+                    app:singleLine="true">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/btn_acc_yes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:theme="@style/Theme.MaterialComponents.Light"
+                        android:text="포함O"/>
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/btn_acc_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:theme="@style/Theme.MaterialComponents.Light"
+                        android:text="포함X"/>
+
+
+                </com.google.android.material.chip.ChipGroup>
+            </HorizontalScrollView>-->
+
+            <!--
+            <RadioGroup
+                android:id="@+id/acc_group"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/btn_acc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="포함O"/>
+
+                <RadioButton
+                    android:id="@+id/btn_acc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="포함X" />
+            </RadioGroup>
+            -->
+
+        <Button
+            android:id="@+id/lookbook_btn"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOOK BOOK"
+            android:textColor="#505050"
+            app:backgroundTint="#45EACD76"
+            app:rippleColor="@color/bg_row_foreground"
+            />
+        </LinearLayout>
+    </ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

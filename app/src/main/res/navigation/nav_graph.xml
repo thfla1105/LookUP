@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/nav_graph"
+            app:startDestination="@id/splashFragment">
+
+    <fragment
+            android:id="@+id/mainFragment"
+            android:name="styleList.ui.main.MainFragment"
+            android:label="main_fragment"
+            tools:layout="@layout/stylelist_ui_fragment">
+        <action
+                android:id="@+id/action_nav_detail"
+                app:destination="@id/detailFragment"/>
+    </fragment>
+
+    <fragment
+            android:id="@+id/detailFragment"
+            android:name="styleList.ui.detail.DetailFragment"
+            android:label="fragment_detail"
+            tools:layout="@layout/fragment_detail"/>
+    <fragment
+            android:id="@+id/splashFragment"
+            android:name="styleList.ui.splash.SplashFragment"
+            android:label="fragment_splash"
+            tools:layout="@layout/fragment_splash" >
+        <action
+                android:id="@+id/action_nav_main"
+                app:destination="@id/mainFragment"/>
+    </fragment>
+    <activity
+            android:id="@+id/settingsActivity"
+            android:name="styleList.SettingsActivity"
+            android:label="SettingsActivity"/>
+
+    <activity
+        android:id="@+id/moveActivity"
+        android:name="Login_Main.activity.MainActivity"
+        android:label="nextActivity"/>
+</navigation>
